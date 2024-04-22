@@ -1,0 +1,45 @@
+.footer-container {
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    height: 300px;
+  }
+  
+  .logo-container {
+    grid-column: 1 / span 1; 
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .social-icons {
+    grid-column: 2 / span 1; 
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .button-container {
+    grid-column: 3 / span 1; 
+    text-align: right;
+  }
+  
+  .footer-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
