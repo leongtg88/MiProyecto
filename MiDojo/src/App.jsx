@@ -25,7 +25,7 @@ function App() {
       <HomePage image={Image3} /> 
       <PageOne logo={Logo} />
       <AboutUs image={Image16} />
-      <FooterSection theme={theme} setTheme={setTheme} />
+      <FooterSection  />
     </div>
   );
 };

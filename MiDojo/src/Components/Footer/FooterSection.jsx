@@ -1,29 +1,20 @@
-import React from 'react'
+import React from 'react';
 import './FooterSection.css';
 
-
-const Footer = () => {
+const FooterSection = () => {
   return (
-    <footer className="footer-container">
-      <div className="logo-container">
-        <img src="../../assets/images/Logo Blanco 110px.png" alt="Logo" className="logo" />
-      </div>
-      <div className="social-icons">
-        <a href="#" className="social-icon">
-          <i className="fab fa-facebook"></i>
-        </a>
-        <a href="#" className="social-icon">
-          <i className="fab fa-twitter"></i>
-        </a>
-        <a href="#" className="social-icon">
-          <i className="fab fa-instagram"></i>
-        </a>
-      </div>
-      <div className="button-container">
-        <button className="footer-button">Contacto</button>
-      </div>
-    </footer>
+    <div className="footer-container">
+      <footer className="container-inside">
+        <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+          <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
+          <li className="nav-item"><a href="#" className="nav-link">About Us</a></li>
+          <li className="nav-item"><a href="#" className="nav-link">Schedule</a></li>
+          <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
+        </ul>
+        <p className="footer-copy text-muted">&copy; ToseiGusoku Developer</p>
+      </footer>
+    </div>
   );
 };
 
-export default Footer;
+export default FooterSection;
