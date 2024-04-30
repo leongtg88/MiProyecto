@@ -1,16 +1,15 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
+import Image3 from '../../assets/images/header.png';
 import './HomePage.css';
 
-const HomePage = ({ image }) => {
+const HomePage = () => {
     return (
-        <div className="parallax-container">
-            <Parallax blur={10} bgImage={image} bgImageAlt="Imagen-tres" strength={200}>
-                <div className="container">
-                    <img src={image} alt="Imagen-tres" className='imagen-tres' /> 
-                </div>
-            </Parallax>
-        </div>
+       
+            <Parallax heigth={300} width={300} bgImage={Image3} bgImageAlt="Imagen-tres" strength={600}>
+            <div className="container-one"></div>
+            </Parallax> 
+    
     );
 };
 

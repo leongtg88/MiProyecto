@@ -40,10 +40,7 @@ const SignupForm = () => {
                 <input {...register('phone', { required: true})} />
             </label>
             <br />
-            <div>
-                <button type="button" onClick={handleClearClick}>Clear</button>
-                <button type="submit">Submit</button>
-            </div>
+          
         </form>
     );
 };

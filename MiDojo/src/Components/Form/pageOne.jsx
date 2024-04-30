@@ -1,12 +1,12 @@
 import React from 'react';
 import './pageOne.css'
-
-const PageOne = ({ logo }) => {
+import Logo from '../../assets/images/Logo 2022 110 px.png';
+const PageOne = () => {
     return (
         <div className="container">
             <div className="container-form">
                 <div class="container-header">
-                    <img src={logo} alt="Logo" className="logo" />
+                    <img src={Logo} alt="Logo" className="logo" />
                     <h2 className="tituloUno">Web App de Progreso de Nivel</h2>
                     <p className="parrafoUno">Bienvenidos al entrenamiento</p>
                 </div>

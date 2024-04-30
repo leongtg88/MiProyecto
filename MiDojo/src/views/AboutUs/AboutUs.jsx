@@ -1,12 +1,14 @@
 import React from 'react';
+import { Parallax } from 'react-parallax';
+import Image16 from '../../assets/images/familiasamurai.png';
 import './AboutUs.css';
 
-const AboutUs = ({ image }) => {
+const AboutUs = () => {
     return (
         <>
-        <div className="container">
-        <img src={image} alt="Imagen16" className='imagen16' /> 
-        </div>
+           <Parallax heigth={300} width={300} bgImage={Image16} bgImageAlt="Imagen-familiasamurai" strength={600}>
+            <div className="containerhome-one"></div>
+            </Parallax> 
         <div className='container-about'>
             <h1 className='titulo'>Sobre Nosotros</h1>
             <p className='parrafo-aboutus'>Karate Do en Santo Domingo <br />

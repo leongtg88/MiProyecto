@@ -12,7 +12,10 @@ const FooterSection = () => {
           <li className="nav-item"><a href="#" className="nav-link">Contact</a></li>
         </ul>
         <p className="footer-copy text-muted">&copy; ToseiGusoku Developer</p>
+
+      
       </footer>
+      
     </div>
   );
 };
