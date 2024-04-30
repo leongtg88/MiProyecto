@@ -6,8 +6,8 @@ import './HomePage.css';
 const HomePage = () => {
     return (
        
-            <Parallax heigth={300} width={300} bgImage={Image3} bgImageAlt="Imagen-tres" strength={600}>
-            <div className="container-one"></div>
+            <Parallax  bgImage={Image3} bgImageAlt="Imagen-tres" strength={600} style={{height:1500} }>
+            <div className="container-one" ></div>
             </Parallax> 
     
     );

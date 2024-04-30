@@ -6,7 +6,7 @@ import './AboutUs.css';
 const AboutUs = () => {
     return (
         <>
-           <Parallax heigth={300} width={300} bgImage={Image16} bgImageAlt="Imagen-familiasamurai" strength={600}>
+           <Parallax  bgImage={Image16} bgImageAlt="Imagen-familiasamurai" strength={600} style={{height:1500} }>
             <div className="containerhome-one"></div>
             </Parallax> 
         <div className='container-about'>
