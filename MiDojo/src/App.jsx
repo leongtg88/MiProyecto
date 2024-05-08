@@ -4,7 +4,7 @@ import PageOne from './Components/Form/pageOne';
 import HomePage from './views/HomePage/HomePage';
 import AboutUs from './views/AboutUs/AboutUs';
 import FooterSection from './Components/Footer/FooterSection';
-
+import HorarioClases from './views/Schedule/HorarioClases';
 
 function App() {
   const current_theme = localStorage.getItem('current_theme');
@@ -23,6 +23,7 @@ function App() {
       <HomePage /> 
       <PageOne  />
       <AboutUs />
+      <HorarioClases />
 
       <div className={`container-navbar ${theme}`}>
         <FooterSection theme={theme} setTheme={setTheme} />
