@@ -4,10 +4,15 @@ import Logo from '../../assets/images/Logo 2022 110 px.png';
 const PageOne = () => {
     return (
         <div className="container">
+            <h2 className="Titulo-Formulario"> Hola! Sumergete en una nueva era de guerreros modernos!</h2>
+            <br />
+            <p>En Tosei Gusoku Dojo Club entrenamos para equlibrar una rautina pesada
+                y el bien estar de nuestro cuerpo, mente y espíritu.
+            </p>
             <div className="container-form">
                 <div class="container-header">
                     <img src={Logo} alt="Logo" className="logo" />
-                    <h2 className="tituloUno">Web App de Progreso de Nivel</h2>
+                    <h2 className="tituloUno">Formulario de Inscripción</h2>
                     <p className="parrafoUno">Bienvenidos al entrenamiento</p>
                 </div>
             <form className="input-form">

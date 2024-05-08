@@ -5,7 +5,7 @@ const HorarioClases = () => {
     return (
 <>
     <div className="table-container">
-        <h2>Horario de Clases</h2>
+        <h2 className="Titulo-Horario">Horario de Clases</h2>
         <br/>
 
         <table>

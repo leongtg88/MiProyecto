@@ -8,6 +8,12 @@
    
   }
 
+  .Titulo-Formulario{
+  margin-top: 100px;
+}
+
+
+
   .container-form{
     background-color: white;
     padding:50px 50px 15px 50px;
@@ -21,6 +27,7 @@
     overflow: hidden;
     gap: 30px;
     margin-top: 50px;
+    margin-bottom: 100px;
   
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
